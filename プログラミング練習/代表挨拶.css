@@ -1,0 +1,39 @@
+table{
+width:640px;
+margin-right:auto;
+margin-left:auto;
+}
+.breadcrumbs{
+width:640px;
+margin-right:auto;
+margin-left:auto;
+}
+.breadcrumbs {
+    width: 980px;
+    margin: 10px auto 0;
+}
+ 
+.breadcrumbs ul {
+    display: table;
+    font-size: 13px;
+}
+ 
+.breadcrumbs ul li {
+    margin: 0 10px 0 0;
+    font-size: 13px;
+    float: left;
+}
+ 
+.breadcrumbs ul li:first-child::before {
+    padding: 0 3px 0 0;
+    content: "\f015";
+    font-family: FontAwesome;
+    font-size: 14px;
+}
+ 
+.breadcrumbs ul li::before {
+    padding: 0 10px 0 0;
+    content: "\f105";
+    font-family: FontAwesome;
+    font-size: 14px;
+}

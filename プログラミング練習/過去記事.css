@@ -1,0 +1,108 @@
+﻿h1{
+color:blue;
+font-size:250%
+}
+h1,nav,main,footer{
+width:700px;
+margin-right:auto;
+margin-left:auto;
+}
+h1,h2,li,footer{
+text-align:center;
+font-family: 'Josefin Slab', serif;
+}
+.globalNav {
+    list-style:none;
+    overflow: hidden;
+}
+.globalNav li {
+    float:left;
+}
+.globalNav li a {
+    display: block;
+    padding: 20px 40px;
+}
+ul:after{
+content:"";
+display:block;
+clear:both;
+}
+ul{
+padding:0;
+}
+table{
+width:100%;
+}
+th{
+text-align:left;
+}
+li a{
+color:#000;
+}
+li a:hover{
+text-decoration:none;
+}
+header{
+border-top:solid 20px #0000FF;
+}
+h2{
+background-image:url(image/gazou.jpg);
+background-repeat:no-repeat;
+background-position:center bottom;
+background-size:220px 28px;
+}
+section{
+box-shadow:0 0 10px 0 black;
+background-color: #FFFFCC;
+margin-top:40px;
+padding-top:10px;
+padding-right:20px;
+padding-bottom:10px;
+padding-left:20px;
+}
+section{
+width:640px;
+margin-right:auto;
+margin-left:auto;
+}
+main img{
+border-radius:6px;
+}
+.globalNav li {
+    float: left;
+    border-right: 1px solid #DDD;
+}
+.globalNav li a span {
+    display: block;
+    margin: 3px 0 0 0;
+    color: #AAA;
+    text-transform: uppercase;
+    font-size: 70%;
+    letter-spacing: 1px;
+}
+.globalNav li a {
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+.globalNav li a:hover {
+   color: white;
+   background: black;
+}
+.btn {
+   border: 1px solid green;
+   border-radius: 5px;
+   background-color: #66FF00;
+   padding: 5px;
+   text-align: center;
+   color: black;
+   width: 150px;
+}
+h3 after {
+   margin-top: 2px;
+}
+h2{
+   padding: 0.5em;
+   background: #CCFFFF;
+   border-bottom: solid 3px #0000FF;
+}

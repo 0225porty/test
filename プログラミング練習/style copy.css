@@ -1,0 +1,56 @@
+﻿@charset "utf-8";
+/*ウインドウ背景色の設定*/
+main {
+   background-color: #EEFFFF;
+   background-image: url(image/images-dot.png);
+   background-repeat: repeat-x;
+}
+/*ヘッダー*/
+#photo {
+   float: right;
+}
+h1 {
+   color: #00CCFF;
+   text-align: left;
+   margin-left: 20px;
+   font-size: 200%;
+}
+h1 span {
+   color: #FF3333;
+   font-size: 150%;
+}
+#wrap {
+
+}
+#date {
+   width: 340px;
+   margin-right: 20px;
+   background-color: #0f0;
+   float: left;
+}
+#main {
+   width: 640px;
+   float: right;
+   background-color: #00f;
+}
+ul {
+   list-style: none;
+   display: inline;
+}
+.globalNav li {
+    float:left;
+}
+footer {
+   text-align: right;
+   clear: both;
+}
+#logo {
+   float: left;/*左寄せ配置*/
+   margin-right: 20px;
+}
+nav {
+   clear: both;
+}
+header {
+   background: url(image/flower.png);
+}
