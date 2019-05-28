@@ -5,3 +5,5 @@
     -git init
 ーファイルの状態を確認
     -git status
+ーファイルを登録する
+    -git add
