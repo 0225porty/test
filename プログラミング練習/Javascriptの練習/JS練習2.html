@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>JSの練習2</title>
+    </head>
+    <style>
+        #container{
+            float:left;
+        }
+    </style>
+    <body>
+        <div class="container" align="center">
+            <div id="item0" class="item">日曜日</div>
+            <div id="item1" class="item">月曜日</div>
+            <div id="item2" class="item">火曜日</div>
+            <div id="item3" class="item">水曜日</div>
+            <div id="item4" class="item">木曜日</div>
+            <div id="item5" class="item">金曜日</div>
+            <div id="item6" class="item">土曜日</div>
+        </div>
+    </body>
+    <script>
+        'use strict'
+        var stock = ['月曜日','火曜日','水曜日','木曜日','金曜日','土曜日','日曜日'];
+
+        document.getElementById('item0').textContent=stock[0];
+        document.getElementById('item1').textContent=stock[1];
+        document.getElementById('item2').textContent=stock[2];
+        document.getElementById('item3').textContent=stock[3];
+        document.getElementById('item4').textContent=stock[4];
+        document.getElementById('item5').textContent=stock[5];
+        document.getElementById('item6').textContent=stock[6];
+
+    </script>
+</html>
